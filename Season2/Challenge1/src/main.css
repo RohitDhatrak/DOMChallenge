@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#progress-bar {
+    background-color: #eeeeee;
+    width: 20em;
+    height: 2em;
+    color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+#run-btn {
+    margin-top: 1em;
+}
+
+#progress {
+    background-color: #3267d6;
+    height: 100%;
+    width: 0;
+    padding: 0;
+    margin: 0;
+}
