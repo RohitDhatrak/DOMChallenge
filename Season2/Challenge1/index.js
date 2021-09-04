@@ -1,4 +1,4 @@
-const INPUT_TIME = 10; // in seconds
+const INPUT_TIME = 3; // in seconds
 
 const button = document.querySelector("#run-btn");
 const progress = document.querySelector("#progress");
