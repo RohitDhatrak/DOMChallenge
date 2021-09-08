@@ -5,7 +5,6 @@ function ChessBoard(node) {
     function diagonalHighlight(e) {
         map.clear();
         const pos = e.target.innerHTML;
-        console.log(pos);
         for (let i = pos[0] - 1, j = pos[1] - 1; i >= 1; i--, j--) {
             map.set(`${i}${j}`, 1);
         }
