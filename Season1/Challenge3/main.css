@@ -1,0 +1,34 @@
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    border: 5px solid #000;
+    height: 40em;
+    width: 40em;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    color: transparent;
+    height: 5em;
+    width: 5em;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.black {
+    background-color: #000;
+}
+
+.red {
+    background-color: #ec3323;
+}
